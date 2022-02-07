@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="xPharmacy.exe" version="1.0.0.1" publicKeyToken="f3ef06c6473505a7" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="xPharmacy" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="xPharmacy.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="xPharmacy.exe" size="4441088">
+      <assemblyIdentity name="xPharmacy" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>vyXGk8K4LySmtug5K+2uc56UWcgMzzzwZ3xzoasTx0c=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="xPharmacy.exe.config" size="195">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>yb014fWCiK2gOXCbmh6h0bywXu2YEQC47gz4cDOorMs=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=AASHIQUMAR748C\aashiq" issuerKeyHash="c9a3c32225cbd86d9b977fc8199bd953bbae3816" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>qB/qX1XUCmZz5KQ8aSoMRbFrgM7+x+CxbMFITC2J6Jc=</DigestValue></Reference></SignedInfo><SignatureValue>dQe14sbyvg/9YZN3ap4WTFXpVjdZVdXKYzArJmtCK6Sd2DFkIj2G0G2GGnDqqwTUd/6Ci7gqwEby9nTc+ZLICVPB5Y50bP62t4hrRGhpYOvUCSuXihLLvoMw0Z2ssKGE9wkInQNKlSBpg9dxThBJqNO3KGE7oeh99JXyHwP90Ts=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>3tXy1Ay5D4jq03TJqct7KH5v2M5vaLWeZux/jSZNPEfR+1CVB44kIktj120H3nxb68uLX+Nztq8ds6lmfPcDz0gJfhf3A+6D4TAmYG872mdhoBWowy53N+0XzvA2FysKzQ/XGoV0eE6IZE90D4WUqh89lIzpd+RXCMLrfAnHaXE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="97e8892d4c48c16cb1e0c7fece806bb1450c2a693ca4e473660ad4555fea1fa8" Description="" Url=""><as:assemblyIdentity name="xPharmacy.exe" version="1.0.0.1" publicKeyToken="f3ef06c6473505a7" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=AASHIQUMAR748C\aashiq</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>MCIpIZUtmLvt1rQSK14wQwhbU4m7+uJw7loPrBWhX+k=</DigestValue></Reference></SignedInfo><SignatureValue>20QXMObSb9CwI0ZEJmrXezzlwOhnU6ooRPdU5ptJ50JuM9UnU+gDMbXw813cik1SXkaMiw0YaLUUHTNBqUrO8A0zXF4sOg4zJbmDp6t75RlLTSndOS5Sw1LdrLiEPZse03ZPzAPMpW3dWVIuqzyrezzYGUlrt8LW4Awz1ZIkU8c=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>3tXy1Ay5D4jq03TJqct7KH5v2M5vaLWeZux/jSZNPEfR+1CVB44kIktj120H3nxb68uLX+Nztq8ds6lmfPcDz0gJfhf3A+6D4TAmYG872mdhoBWowy53N+0XzvA2FysKzQ/XGoV0eE6IZE90D4WUqh89lIzpd+RXCMLrfAnHaXE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB7TCCAVagAwIBAgIQObE5QJED3qdGYI4J7NGoADANBgkqhkiG9w0BAQsFADA1MTMwMQYDVQQDHioAQQBBAFMASABJAFEAVQBNAEEAUgA3ADQAOABDAFwAYQBhAHMAaABpAHEwHhcNMjExMjAyMTY0NDEyWhcNMjIxMjAyMjI0NDEyWjA1MTMwMQYDVQQDHioAQQBBAFMASABJAFEAVQBNAEEAUgA3ADQAOABDAFwAYQBhAHMAaABpAHEwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAN7V8tQMuQ+I6tN0yanLeyh+b9jOb2i1nmbsf40mTTxH0ftQlQeOJCJLY9dtB958W+vLi1/jc7avHbOpZnz3A89ICX4X9wPug+EwJmBvO9pnYaAVqMMudzftF87wNhcrCs0P1xqFdHhOiGRPdA+FlKofPZSM6XfkVwjC63wJx2lxAgMBAAEwDQYJKoZIhvcNAQELBQADgYEAJe6V2WR/OQP+nYp8rObjNWufWkcK9IXE2q0g2XLJQJPLpKkKLiWvYH9jGqyqqSJHx8H5eQ/gtfgRr0/dq8mrQPFb+IEPsfdv27UEsc7BJmjPH2EjXdQJ6huI0ABcLFVYNxvpEn7+huXgDCTwuMkIIQIaInnVrsMrKF4X0TzAw6s=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
