@@ -1,3 +1,1 @@
-# xpharma
-A C# project done in order to learn API Service along with Sql Database properly using VS.
-
+A medical windows desktop application created using C#, which allows the medical store order products, store employee and stock details, all in one software along with .Net Core to integrated with Swagger API Service along with Sql Database properly using Visual Studio.
